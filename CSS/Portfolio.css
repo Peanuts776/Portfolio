@@ -1,0 +1,203 @@
+body{
+    margin:0%;
+}
+
+.Navbar{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.Navbar a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center
+}
+
+.Navbar a:hover{
+    background-color: #f4f4f4;
+    color: black;
+    font-weight: bold;
+}
+
+.Navbar a.active{
+    background-color: darkgray;
+}
+
+#CoverPhoto{ 
+    position: fixed;
+    top:0;
+    left:0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.CoverPhotoText{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 23%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.Column1{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: white;
+}
+
+.Column2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.Column3{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3.5%;
+    height: 450px;
+    background-color: lightgrey;
+}
+
+.Row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    color: #1a1a1a;
+}
+
+p{
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+center{
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+color: blue;
+}
+
+.Quote{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+img{
+    border-radius: 8px;
+    max-width: 75%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+input[type=submit]:hover{
+background-color: white;
+color: black;
+font-weight: bold;
+transform: scale(1.5);
+transition: transform 1.5s;
+}
+
+form{
+    border-radius: 5px;
+    background-color: tan;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Quote:hover{
+    transition: 3s;
+    transform: scale(1.5);
+}
+
+h1:hover{
+    transition: transform 3s;
+    transform: skewX(20deg);
+}
+
+img:hover{
+    filter: grayscale(50%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+.Column1 p:hover{
+    border: 5px solid slategray;
+    transition: 3s;
+    transform: scale(1.02);
+}
+
+footer{
+    padding: 2%;
+    background-color: white;
+}
+
+
