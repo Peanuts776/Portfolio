@@ -57,7 +57,7 @@ body{
     float: left;
     width: 50%;
     padding: 10px;
-    padding-top: 3%;
+    padding-top: 1%;
     height: 400px;
     background-color: white;
 }
@@ -66,7 +66,7 @@ body{
     float: left;
     width: 50%;
     padding: 10px;
-    padding-top: 1.9%;
+    padding-top: 1%;
     height: 400px;
     background-color: lightgrey;
 }
@@ -162,7 +162,7 @@ input[type=submit]:hover{
 background-color: white;
 color: black;
 font-weight: bold;
-transform: scale(1.5);
+transform: scale(1.2);
 transition: transform 1.5s;
 }
 
@@ -198,6 +198,10 @@ img:hover{
 footer{
     padding: 2%;
     background-color: white;
+}
+
+.JavaScriptDropdown{
+    position: fixed;
 }
 
 
